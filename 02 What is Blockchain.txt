@@ -1,0 +1,44 @@
+CRYPTOGRAPHY PRINCIPLE : GOING FORWARDS is quick and EZ to calculate
+			GOING BACKWARDS almost impossible using current computational
+
+Blockchain = ledger
+
+a ledger = record : notes down transactions
+
+Jack -> Helena : 10 $
+Angela -> Helena : 5 $
+
+
+What is the problem with normal ledger?
+all 3 have to agree, which transactions will be noted down : AGREEMENT
+Trust the ledger holding person, that they wont modify	 : TRUST
+						   DATA TAMPERING
+
+
+
+Solution: Make history of transaction Immutable i.e LOCK IT FOREVER
+	How to secure ledger?
+
+1)
+	encryption? not v secure, cipher can be decrypted (encryption works both ways)
+
+For ex Caeser Cypher (shift)
+	ez to figure out just know the shift no.
+
+               encrypt
+Message --------> Cipher
+
+2) Hashing	
+     Msg	   Hash
+Ex. 29 x2 = 58	
+ but find factor of 58? difficult
+		//Output: has same no. of characters	//One way
+ex SHA 256	//you can type an entire book and  -> it will generate a hash
+
+	Hashing
+Message ----------> Hash Code
+
+3) BitCoin Ledger
+	        Hashing
+transaction data -----> hash
+

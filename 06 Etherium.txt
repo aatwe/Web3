@@ -1,0 +1,21 @@
+Crowdfunding company not needed
+ few lines of code will transfer the money once goal reached
+
+Basically if a goal is reached , a code is activated and money is transferred 	: Decentralized Applications
+What are decentralized apps? get our apps to do things based on code in blockchain
+
+Etherium realised : We can store data + Smart Contracts
+
+
+How are smart contracts stored? In form of code into etherium blocks
+
+1) For ex Store below code in block
+
+if total_amount > 5000$ {
+angela_account += 5000
+}
+
+2) Generate Hash
+3) never change the code again
+
+

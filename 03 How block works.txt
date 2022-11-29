@@ -1,0 +1,42 @@
+3) BitCoin Ledger
+
+What is hash? id for block
+Where is the data stored? in blocks
+How is data stored? by hashing with nonce
+What is nonce? no. combined with data to produce hash
+Every block has difficulty: 
+more difficulty -> more big predefined condition
+Small change in data -> Block modified -> changes nonce
+
+	        	Hashing
+transaction data  	-----> hash	//block in blockchain
+(name,$ etc)
+____________________________________________
+Block: #1
+
+Nonce: 3885
+
+transaction Data:  Angela Owes Jack 10$
+
+Prev: 00000000000000000000
+
+Hash:000dfsf09sd8f0s90f8s0s
+_____________________________________________
+
+How to add block to blockchain?  predefined condition
+				for ex hash has to start with 3 0s	//easy difficulty
+
+how to achieve condition?
+1) manually keep adding data until condition matches	(HECTIC)
+2) Modify the nonce
+	for ex nonce = 1 => produces hash with 4 0s (HECTIC)
+		     = 2 => 	.......and So on
+
+3)  BRUTE FORCE THE nonce by COMPUTER  
+	For the above: takes 0.1 second for computer
+	Nonce: 3885 is answer nonce to encode the above data
+ 
+ -> MINE
+
+OUTPUT:
+Block becomes valid -> turns green	//blockchain requirement satisfied

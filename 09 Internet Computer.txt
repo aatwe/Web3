@@ -1,0 +1,43 @@
+DFinity:  Built Internetcomputer
+
+What they built? Scalable cloud computer running on blockchain
+	Decentralized + Fast
+
+Help Create full fledged DApps on chain
+
+What is Internet Computer goal? secure block chain capable of running entire base layer of web
+				Hosting + Storage + Services....->Everything in 1 PROTOCOL
+
+Competitor to Etherium
+
+Are today's DApps really DApps? No partially, only small amount of code logic in blockchain
+				Majority of data on Web2.0 companies (AWS/Azure)
+			Still need chrom extension to connect wallet and earn token
+
+
+What is cost to store 1 GB data on etherium blockchain? 350 Million $
+Etherium cannot handle entire Tech stack of web app
+
+
+What is needed?
+Transaction posting rate is important
+TPS -> determines how fast can we update state
+
+How much times taken to create new block on Etherium blockchain?
+14 Seconds
+
+
+What is current limit Etherium block size TPS?
+15 transaction per second
+
+What if twitter were on etherium rn?
+4 user can post tweet every minute	//100$ to pay to tweet single tweet
+
+
+What is DFinity solution? Threshold relay algorithm
+Internet computer can reach much faster speeds 
+	compared to other layer 1 blockchains like: Etherium,polkadot,cardano,solana,Binance smart chain,Algorand,Avalanche etc
+
+less average block time 0.045
+more blocks persecond 22.5
+TPS: No limit

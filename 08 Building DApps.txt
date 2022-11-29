@@ -1,0 +1,21 @@
+1) Pick a Chain
+	Etherium 1st one : Smart contracts
+
+
+Problems with etheirum :
+	1) Costly to store on etherium nw,Cannot store data on etherium
+	2) Costly to do computation on etherium nw
+	3) Impossible to have backend with database
+	//Cannot do large amount of transactions
+
+What are NFTS?
+They are minted on etherium network
+
+Where are NFTS stores? NOT ON BLOCKCHAIN
+	ipfs through filecoin, 
+	images on AWS etc
+	We get instead : URL 
+
+
+How are etherium apps made then? patchwork of different services
+website following DApps with JS,Images,CSS etc : stil hosted on Amazon

@@ -1,0 +1,55 @@
+What do people mine? mine each piece of block until it gets validated
+Everytime some data changed, link is broken with every subsequent block -> 
+Remine every single block again
+
+When is a block valid? Nonce + Data +  prev -> generate Hash with predefined condition	//Done for all block when Mined
+What is prev? previous block hash value
+block difficulty = no. of zeroes for ex 5: 00000
+____________________________________________
+Block: #1
+
+Nonce: 3885
+
+Data:  Angela owes Jack 10$
+
+Prev: 00000000000000000000
+
+Hash:000dfsf09sd8f0s90f8s0s
+
+-> Mine	//Press mine to record to blockchain ledger
+_____________________________________________
+____________________________________________
+Block: #2
+
+Nonce: 15208
+
+Data:  Angela gave jenny 5$
+
+Prev: :000dfsf09sd8f0s90f8s0s
+
+Hash:000adf098asdf09as78d
+
+-> Mine	//Press mine to record to blockchain ledger
+	//Figures our nonce
+_____________________________________________
+____________________________________________
+Block: #3
+
+Nonce: 24677...............So on
+
++++++++++++++++++++++++++++++++++++++
+What if i go back in time and alter something in ledger, lets say block 1?
+For ex
+Data: Angela owes Jack $10 ----> Jack owes Angela 10$
+Block1 -> gets invalidated
+why? Nonce + Data +  prev not same anymore //hash function changed
+
+Block 1 --> Block 2 ---> Block 3... all get invalidated	
+
+
+Summary: You cant change data without people knowing about it
+
+Turn data back to original ---> everything green 	//original state of ledger
+
+THIS IS HOW LEDGER IS IMMUTABLE
+CANNOT CHANGE ANYTHING INTO BLOCKCHAIN ---> INVALIDATES HASHES

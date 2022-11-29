@@ -1,0 +1,32 @@
+What are decentralized apps? get our apps to do things based on code in blockchain
+Backbone of Web3.0
+DECENTRALIZED = TRUSTLESS
+How it changes business? Basically will help raise funding earlier
+Build startup ---> Raise VC Funding ----> IPO + Cashout
+
+
+Web3.0
+Build startup ---> Release tokens to VC/public ---->	Decentralized Autonomous Organizations
+		Sell tokens that enable people	Replace board of directors(token holders)
+		to use & interact technology		//Special token = Governance token
+		Allow user to contri to roadmap	Allows to vote what DApp should do in future
+
+
+
+
+Everybody's incentive are alligned : if application does well ---> token price goes up ---> company has to do valuable things/make good decisions
+
+
+Ex of Decentralized App : Filecoin :  Hosted across millions of computers
+	//Like dropbox
+
+Filecoin : ICO ; Initial Coin Offering oublic buys their coins	: raise huge money
+
+
+What advantages? more incentive to work, no need to trust, honest work, power in hands of people
+Do you have to give away identity? no ---> can use pseudonym
+
+
+GET RECOGNIZED FOR WHAT YOU DO, INSTEAD OF WHAT YOU ARE
+Age wont matter, race wont matter
+Just have to produce valuable things

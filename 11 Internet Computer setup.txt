@@ -1,0 +1,77 @@
+1) System information:
+	OS: > Windows 10
+	System Type:  64 bit
+
+2) Powershell as administrator
+    wsl --install
+	//WIndows submachine for linux	 (Virtual Linux)
+	//can run bash commands then	//Why run bash command? required to run dfinity internet computer
+
+ Request Operation  Successfull -> Restart
+
+3) Ubuntu username and password
+	Enter your password 
+
+4) Powershell as administrator
+	wsl --list --verbose	//makes sure wsl is correctly installed
+	Ubuntu version 2
+	
+5) Install VS Code 
+		
+6) What extensions required?
+	Motoko extension	(from difinity)
+		(why? to use terminal inside vscode => tap into wsl)
+	Node	Home Brew	//(Why needed? to install node )
+		: https://brew.sh/
+		//Copy bash command
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+	Specify password	//Installing homebrew
+
+	y
+	
+	brew --version
+	
+
+7)  	brew install node@16	//This version will work with internet computer
+	//if getting error node16 is keg only -> another node version is installed
+		brew link node@16
+	node --version	
+
+7) Install DFX
+	DFX_VERSION=0.9.3 sh -ci "$(curl -fsSL http://sdk.dfinity.org/instal.sh
+	//What is dfx? package that will allow us to work with internet computer locally 
+	set up a path to point to location
+	export PATH=$PATH:<REPLACE WITH YOUR INSTALLATION PATH	//that we got from dfx install	
+'for ex
+	export PATH=$PATH:/home/angela/bin/dfx
+	echo "${PATH//:$'\n'}"
+		//DFX location will be added to path
+	dfx --version	
+	//DFX INSTALLED
+	//READY TO CREATE INTERNET COMPUTER APPLICATION
+
+
+VS Code Open : Green icon at bottom left: New WSL Window
+		//Running in Ubuntu
+
+
+Create directory ic projects
+	mkdir ic-projects	/Create inside user folder
+	cd ic-projects
+	dfx new hello	//Build sample internet computer application Hello
+			//Can see Dfinity logo show up		
+	explorer.exe  .	//How to see our folder and files
+	
+//Go to directory and see hello folder with template files that dfx created
+//Open this folder in VSCode
+Project opened in VS Code
+	//In src folder we have main.mo	//motoko file
+					//Enable Motoko extension : install in WSL Ubuntu
+
+
+
+Terminal:
+	dfx start		//starts the local internet computer
+	dfx deploy	//new terminal
+	npm start
+	http://localhost:8000/

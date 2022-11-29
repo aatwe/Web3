@@ -1,0 +1,41 @@
+IC Aggregates compute capacity of large no. of independent data centres
+	Combine data centres around the world  how? Internet Computer protocol	
+		Combine into? Large single Decentralized world computer
+
+		
+Decentralized World Computer -----> organized into ----> Cannister smart chains
+						//note cannister = cans
+What is inside a can?
+store program + program state 	//using web assembly module + memory page flash memory model
+
+What do these cannister do? Basically: 
+NO NEED TO WORRY ABOUT DATABASE --> program never gets killed
+	Run processes, execute code, store data for programs
+	Manage memory :  
+	Each cannister acts like code sandbox / container/ docker
+		Basically program state is preserved
+	Cannister seems to run forever
+	Dev perspective: You run a program in cannister => program never gets killed
+	data can be kept in variables, all variables hold on to their state
+
+NO NEED TO WORRY ABOUT DATABASE
+
+How do we communicate with cannisters? HTTPS Requests
+
+
+What do dev have to do?
+1) write code that compiles correctly on user Hardware using Web Assembly
+2) Just worry about logic
+What languages dev can use?
+Rust , motoko
+
+
+How many cannister running rn?30k
+Many applications are built on internet computer
+Decentralized Reddit / tiktok etc
+
+How user interaction changes?
+For ex Cancan Decentralized Tiktok : For ex you like a new video -> if video is viral --> reward first 20 people who liked with can can tokens			
+									get virtual products / sponser gifts etc
+	
+ DFINITY DEVELOPER GRANT PROGRAMS

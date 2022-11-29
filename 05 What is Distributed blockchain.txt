@@ -1,0 +1,30 @@
+What is done in distributed blockchain?
+Blockchain distributed on multiple computers
+	Why distribute? to maintain integrity of data
+	There is no need to trust someone	for ex Bank / Paypal to make sure all transactions are correct
+
+Transaction instead encoded by Blockchain
+
+Does it matter who stores the copy of block chain? NO , 
+
+All participant has to agree what is on the ledger
+
+How to agree?
+
+PeerA Block chain data = Peer B Block chain data = Peer C Block chain data	//Why? identical hash
+
+Peer A : 	Block 1 --->  Block 2 ---> Block 3	BC1	//Computer 1
+
+Peer B :    Block 1 ---> Block  2 ---> Block 3	BC2	//Computer 2
+
+Peer C :    Block 1 ---> Block  2 ---> Block 3	BC3	//Computer 3
+
+If Peer A decides to be cheeky and change blockchain data
+   Next blocks invalidate
+
+	What if he remines all other blocks?
+		They wont match with other block chain
+	
+B1!= BC2 = BC3
+Player A is bad player, their hash dont match with other's
+
